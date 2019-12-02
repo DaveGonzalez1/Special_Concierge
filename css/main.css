@@ -1,0 +1,1334 @@
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+/*---------------------------------------------*/
+a {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+  color: #6a7dfe;
+  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+  color: -o-linear-gradient(left, #21d4fd, #b721ff);
+  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
+  color: linear-gradient(left, #21d4fd, #b721ff);
+}
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+/*---------------------------------------------*/
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder { color: #adadad;}
+input:-moz-placeholder { color: #adadad;}
+input::-moz-placeholder { color: #adadad;}
+input:-ms-input-placeholder { color: #adadad;}
+
+textarea::-webkit-input-placeholder { color: #adadad;}
+textarea:-moz-placeholder { color: #adadad;}
+textarea::-moz-placeholder { color: #adadad;}
+textarea:-ms-input-placeholder { color: #adadad;}
+
+/*---------------------------------------------*/
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none !important;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+.txt1 {
+  font-family: Poppins-Regular;
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.txt2 {
+  font-family: Poppins-Regular;
+  font-size: 13px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #f2f2f2;  
+}
+
+.wrap-login100 {
+  width: 390px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 77px 55px 33px 55px;
+
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+/*------------------------------------------------------------------
+[ Form ]*/
+
+.login100-form {
+  width: 100%;
+}
+
+.login100-form-title {
+  display: block;
+  font-family: Poppins-Bold;
+  font-size: 30px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+}
+.login100-form-title i {
+  font-size: 60px;
+}
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 37px;
+}
+
+.input100 {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px;
+}
+
+/*---------------------------------------------*/ 
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #6a7dfe;
+  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
+  background: linear-gradient(left, #21d4fd, #b721ff);
+}
+
+.focus-input100::after {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.2;
+
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  padding-left: 5px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input100:focus + .focus-input100::after {
+  top: -15px;
+}
+
+.input100:focus + .focus-input100::before {
+  width: 100%;
+}
+
+.has-val.input100 + .focus-input100::after {
+  top: -15px;
+}
+
+.has-val.input100 + .focus-input100::before {
+  width: 100%;
+}
+
+/*---------------------------------------------*/
+.btn-show-pass {
+  font-size: 15px;
+  color: #999999;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding-right: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn-show-pass:hover {
+  color: #6a7dfe;
+  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+  color: -o-linear-gradient(left, #21d4fd, #b721ff);
+  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
+  color: linear-gradient(left, #21d4fd, #b721ff);
+}
+
+.btn-show-pass.active {
+  color: #6a7dfe;
+  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+  color: -o-linear-gradient(left, #21d4fd, #b721ff);
+  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
+  color: linear-gradient(left, #21d4fd, #b721ff);
+}
+
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 13px;
+}
+
+.wrap-login100-form-btn {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.login100-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  background: #a64bf4;
+  top: 0;
+  left: -100%;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.login100-form-btn {
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.wrap-login100-form-btn:hover .login100-form-bgbtn {
+  left: 0;
+}
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+  .wrap-login100 {
+    padding: 77px 15px 33px 15px;
+  }
+}
+
+
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.validate-input {
+  position: relative;
+}
+
+.alert-validate::before {
+  content: attr(data-validate);
+  position: absolute;
+  max-width: 70%;
+  background-color: #fff;
+  border: 1px solid #c80000;
+  border-radius: 2px;
+  padding: 4px 25px 4px 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0px;
+  pointer-events: none;
+
+  font-family: Poppins-Regular;
+  color: #c80000;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: left;
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+.alert-validate::after {
+  content: "\f06a";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #c80000;
+
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 5px;
+}
+
+.alert-validate:hover:before {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+.derecha   { float: right; }
+.izquierda { float: left;  }
+
+
+.mediaViewInfo {
+  --web-view-name: Sign In;
+  --web-view-id: Sign_In;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: Sign_In;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#Sign_In {
+  position: absolute;
+  background: #E5E5E5;
+  width: 375px;
+  height: 812px;
+  background-color: rgba(255,255,255,1);
+  overflow: hidden;
+  --web-view-name: Sign In;
+  --web-view-id: Sign_In;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+#bg_gray {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.bg {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 812px;
+  left: 0px;
+  top: 0px;
+}
+.bg_gradient {
+  display: none;
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 165px;
+  left: 0px;
+  top: 0px;
+}
+.bg_A19_Path_2 {
+  display: none;
+  overflow: visible;
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+.bg_A19_Path_2 {
+  display: none;
+  overflow: visible;
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#content {
+  position: absolute;
+  width: 327px;
+  height: 265px;
+  left: 24px;
+  top: 170px;
+  overflow: visible;
+}
+#buttons_large_green {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 213px;
+  overflow: visible;
+}
+.bg_A19_Rectangle_3 {
+  position: absolute;
+  overflow: visible;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+}
+#CONTINUE {
+  position: absolute;
+  left: 127px;
+  top: 19px;
+  overflow: visible;
+  width: 75px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(255,255,255,1);
+}
+#textfields {
+  position: absolute;
+  width: 327px;
+  height: 132px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+#textfields_0 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#textfield {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.bg_A19_Rectangle_4 {
+  filter: drop-shadow(0px 4px 16px rgba(69, 91, 99, 0.078));
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+#Email {
+  opacity: 0.558;
+  position: absolute;
+  left: 24px;
+  top: 19px;
+  overflow: visible;
+  width: 40px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(120,132,158,1);
+  letter-spacing: 0.2px;
+}
+#textfields_1 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 76px;
+  overflow: visible;
+}
+#textfield_A19_Component_3 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.bg_A19_Rectangle_5 {
+  filter: drop-shadow(0px 4px 16px rgba(69, 91, 99, 0.078));
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+#Password {
+  opacity: 0.558;
+  position: absolute;
+  left: 24px;
+  top: 19px;
+  overflow: visible;
+  width: 69px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(120,132,158,1);
+  letter-spacing: 0.2px;
+}
+#FORGOT_PASSWORD {
+  opacity: 0.565;
+  position: absolute;
+  left: 106px;
+  top: 168px;
+  overflow: visible;
+  width: 114px;
+  white-space: nowrap;
+  line-height: 14px;
+  margin-top: -1px;
+  text-align: left;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(174,180,193,1);
+}
+#content_A19_Group_5 {
+  position: absolute;
+  width: 559px;
+  height: 476px;
+  left: 24px;
+  top: 114px;
+  overflow: visible;
+}
+#bg_A19_Group_6 {
+  position: absolute;
+  width: 417px;
+  height: 417px;
+  left: 142px;
+  top: 59px;
+  overflow: visible;
+}
+.bg_A19_Ellipse_1 {
+  position: absolute;
+  overflow: visible;
+  width: 417px;
+  height: 417px;
+  left: 0px;
+  top: 0px;
+}
+#textfields_A19_RepeatGrid_2 {
+  position: absolute;
+  width: 327px;
+  height: 207px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+#textfields_A19_RepeatGrid_2_0 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#textfield_A19_Component_4 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.bg_A19_Rectangle_6 {
+  filter: drop-shadow(0px 4px 16px rgba(69, 91, 99, 0.078));
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+#Name {
+  opacity: 0.558;
+  position: absolute;
+  left: 24px;
+  top: 19px;
+  overflow: visible;
+  width: 43px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(120,132,158,1);
+  letter-spacing: 0.2px;
+}
+#textfields_A19_RepeatGrid_2_1 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 76px;
+  overflow: visible;
+}
+#textfield_A19_Component_5 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.bg_A19_Rectangle_7 {
+  filter: drop-shadow(0px 4px 16px rgba(69, 91, 99, 0.078));
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+#Email_A19_Text_6 {
+  opacity: 0.558;
+  position: absolute;
+  left: 24px;
+  top: 19px;
+  overflow: visible;
+  width: 40px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(120,132,158,1);
+  letter-spacing: 0.2px;
+}
+#textfields_A19_RepeatGrid_2_2 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 152px;
+  overflow: visible;
+}
+#textfield_A19_Component_6 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.bg_A19_Rectangle_8 {
+  filter: drop-shadow(0px 4px 16px rgba(69, 91, 99, 0.078));
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+#Password_A19_Text_7 {
+  opacity: 0.558;
+  position: absolute;
+  left: 24px;
+  top: 19px;
+  overflow: visible;
+  width: 69px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(120,132,158,1);
+  letter-spacing: 0.2px;
+}
+#buttons_large_green_A19_Component_7 {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 261px;
+  overflow: visible;
+}
+.bg_A19_Rectangle_9 {
+  position: absolute;
+  overflow: visible;
+  width: 327px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+}
+#CONTINUE_A19_Text_8 {
+  position: absolute;
+  left: 127px;
+  top: 19px;
+  overflow: visible;
+  width: 75px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(255,255,255,1);
+}
+#top {
+  position: absolute;
+  width: 375px;
+  height: 102px;
+  left: 0px;
+  top: 15px;
+  overflow: visible;
+}
+#tab_2_options_1 {
+  position: absolute;
+  width: 375px;
+  height: 44px;
+  left: 0px;
+  top: 58px;
+  overflow: visible;
+}
+.bg_A19_Rectangle_10 {
+  filter: drop-shadow(0px 12px 16px rgba(69, 91, 99, 0.078));
+  position: absolute;
+  overflow: visible;
+  width: 423px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+}
+#SIGN_IN {
+  position: absolute;
+  left: 71px;
+  top: 17px;
+  overflow: visible;
+  width: 47px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgba(69,79,99,1);
+}
+#SIGN_UP {
+  position: absolute;
+  left: 254px;
+  top: 17px;
+  overflow: visible;
+  width: 51px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Gibson;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgba(149,157,173,1);
+}
+.divider {
+  position: absolute;
+  overflow: visible;
+  width: 1px;
+  height: 44px;
+  left: 187px;
+  top: 0px;
+}
+#gradient {
+  position: absolute;
+  width: 188px;
+  height: 6px;
+  left: 0px;
+  top: 38px;
+  overflow: visible;
+}
+.Rectangle {
+  position: absolute;
+  overflow: visible;
+  width: 47.125px;
+  height: 6px;
+  left: 0px;
+  top: 0px;
+}
+.Rectangle_A19_Rectangle_13 {
+  position: absolute;
+  overflow: visible;
+  width: 47.125px;
+  height: 6px;
+  left: 47.125px;
+  top: 0px;
+}
+.Rectangle_A19_Rectangle_14 {
+  position: absolute;
+  overflow: visible;
+  width: 47.125px;
+  height: 6px;
+  left: 93.75px;
+  top: 0px;
+}
+.Rectangle_A19_Rectangle_15 {
+  position: absolute;
+  overflow: visible;
+  width: 47.125px;
+  height: 6px;
+  left: 140.875px;
+  top: 0px;
+}
+.divider_A19_Rectangle_16 {
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 1px;
+  left: 0px;
+  top: 0px;
+}
+#status_bar_light {
+  position: absolute;
+  width: 340.328px;
+  height: 16px;
+  left: 20px;
+  top: 0px;
+  overflow: visible;
+}
+#status_bar_light_A19_Group_12 {
+  position: absolute;
+  width: 340.328px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.Background {
+  display: none;
+  overflow: visible;
+  position: absolute;
+  width: 375px;
+  height: 44px;
+  left: -20px;
+  top: -15px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Battery {
+  position: absolute;
+  width: 24.328px;
+  height: 11.333px;
+  left: 316px;
+  top: 2.333px;
+  overflow: visible;
+}
+#Border {
+  position: absolute;
+  width: 22px;
+  height: 11.333px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Cap {
+  position: absolute;
+  width: 1.328px;
+  height: 4px;
+  left: 23px;
+  top: 3.667px;
+  overflow: visible;
+}
+#Capacity {
+  position: absolute;
+  width: 18px;
+  height: 7.333px;
+  left: 2px;
+  top: 2px;
+  overflow: visible;
+}
+#Wifi {
+  position: absolute;
+  width: 15.272px;
+  height: 10.966px;
+  left: 295.694px;
+  top: 2.331px;
+  overflow: visible;
+}
+#Wifi_A19_Group_18 {
+  position: absolute;
+  width: 15.272px;
+  height: 10.966px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Cellular_Connection {
+  position: absolute;
+  width: 17px;
+  height: 10.667px;
+  left: 273.667px;
+  top: 2.667px;
+  overflow: visible;
+}
+#Cellular_Connection_A19_Group_20 {
+  position: absolute;
+  width: 17px;
+  height: 10.667px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Bars___Time_Black {
+  position: absolute;
+  width: 54px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.Background_A19_Path_14 {
+  overflow: visible;
+  position: absolute;
+  width: 54px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+.__Time {
+  overflow: visible;
+  position: absolute;
+  width: 27.451px;
+  height: 10.35px;
+  left: 12.823px;
+  top: 4.89px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#bottom {
+  position: absolute;
+  width: 375px;
+  height: 333px;
+  left: 0px;
+  top: 479px;
+  overflow: visible;
+}
+#keyboard_dark {
+  position: absolute;
+  width: 375px;
+  height: 333px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.Screen_Background {
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 333px;
+  left: 0px;
+  top: 0px;
+}
+#Keyboard_Alphabet {
+  position: absolute;
+  width: 375px;
+  height: 333px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Keyboard_Bottom {
+  position: absolute;
+  width: 375px;
+  height: 76px;
+  left: 0px;
+  top: 257px;
+  overflow: visible;
+}
+.Background_A19_Rectangle_18 {
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 76px;
+  left: 0px;
+  top: 0px;
+}
+#Emoji {
+  position: absolute;
+  width: 26.5px;
+  height: 26.5px;
+  left: 24.5px;
+  top: 25px;
+  overflow: visible;
+}
+#Emoji_A19_Group_26 {
+  position: absolute;
+  width: 26.5px;
+  height: 26.5px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Dictation {
+  position: absolute;
+  width: 15px;
+  height: 24.997px;
+  left: 330px;
+  top: 26px;
+  overflow: visible;
+}
+#Dictation_A19_Group_28 {
+  position: absolute;
+  width: 15px;
+  height: 24.997px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Home_Indicator {
+  position: absolute;
+  width: 375px;
+  height: 34px;
+  left: 0px;
+  top: 42px;
+  overflow: visible;
+}
+.Background_A19_Rectangle_19 {
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 34px;
+  left: 0px;
+  top: 0px;
+}
+.Bar {
+  position: absolute;
+  overflow: visible;
+  width: 134px;
+  height: 5px;
+  left: 121px;
+  top: 20px;
+}
+#Keyboard_Alphabetic___Suggesti {
+  position: absolute;
+  width: 375px;
+  height: 258px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.Keyboard_Alphabet_A19_Rectangle_21 {
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 216px;
+  left: 0px;
+  top: 42px;
+}
+#Keyboard_Alphabetic___Suggesti_A19_Group_31 {
+  position: absolute;
+  width: 375px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Background_A19_Rectangle_23 {
+  filter: blur(20px);
+}
+.Background_A19_Rectangle_23 {
+  position: absolute;
+  overflow: visible;
+  width: 375px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+}
+#Suggestion_3 {
+  position: absolute;
+  width: 124px;
+  height: 42px;
+  left: 251px;
+  top: 0px;
+  overflow: visible;
+}
+.Background_A19_Rectangle_24 {
+  position: absolute;
+  overflow: visible;
+  width: 124px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+}
+.suggestion_3 {
+  overflow: visible;
+  position: absolute;
+  width: 49.454px;
+  height: 12.659px;
+  left: 37.093px;
+  top: 12.499px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Suggestion_2 {
+  position: absolute;
+  width: 125px;
+  height: 42px;
+  left: 125px;
+  top: 0px;
+  overflow: visible;
+}
+.Background_A19_Rectangle_25 {
+  position: absolute;
+  overflow: visible;
+  width: 125px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+}
+.Suggestion_2_A19_Path_21 {
+  overflow: visible;
+  position: absolute;
+  width: 40.147px;
+  height: 12.659px;
+  left: 42.25px;
+  top: 12.499px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Suggestion_1 {
+  position: absolute;
+  width: 124px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.Background_A19_Rectangle_26 {
+  position: absolute;
+  overflow: visible;
+  width: 124px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+}
+.suggestion_1 {
+  overflow: visible;
+  position: absolute;
+  width: 52.023px;
+  height: 12.916px;
+  left: 35.493px;
+  top: 12.242px;
+  transform: matrix(1,0,0,1,0,0);
+}
