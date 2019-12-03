@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+
+header{
+    position: relative;
+    left: 6em;
+    top: -14em;
+    width: 1350px;
+    height: 230px;
+    background-color: black;
+    border-radius: 15px;
+    
+}
+
+div.content{
+    border-radius: 15px;
+    width: 150px;
+    height: 230px;
+    float: left;
+  -webkit-transition: .4s;
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+opacity: 1;
+}
+h1{
+    margin: 0 0 10px;
+    padding: 0;
+    color:black;
+    font-size: 24px;
+}
+
+
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition:4s ;
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+fieldset{
+    background: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    padding: 0 0 0 40px ;
+}
+
+div#rest{
+    background-color: black;
+}
+
+div#plaz{
+    background-color: black;
+}
+
+div#hotel{
+
+    background-color: black;
+}
+
+div#bank{
+
+    background-color: black;
+}
+
+div#coff{
+
+    background-color: black;
+}
+
+div#hospital{
+
+    background-color: black;
+}
+
+div#cerca{
+    background-color: black;
+}
+
+div#tend{
+    background-color: black;
+
+}
+
+div#dest{
+
+    background-color: black;
+}
+
+img.icon{
+    display: block;
+    margin: 30px auto;
+    background: rgba(255, 255, 2555, .15);
+    width: 40px;
+    padding: 30px;
+    -webkit-border-radius: 15%;
+    -webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+    -webkit-transition: box-shadow .4s;
+}
+
+img.icon1{
+    display: block;
+    margin: 0px;
+    width: 20px;
+    -webkit-border-radius: 15%;
+  
+    -webkit-transition: box-shadow .4s;
+    
+}
+
+p.texto{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-transition: .4s;
+
+
+}
+
+
+div.content:hover{
+    height: 250px;
+}
+
+div.content:hover p.texto{
+padding-top: 30px;
+opacity: 1;
+}
+
+div.content:hover img.icon{
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+#map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
