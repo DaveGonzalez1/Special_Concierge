@@ -597,14 +597,16 @@
     border-radius: 15px;
   }
 
+  .redonder .Color-White{
+    background:rgb(255,255,255);
+  }
+
+  .redonder .Muy-Circular{
+    border-radius: 15px;
+  }
+
 /* Comentarios */
-/* 
-#paginacion {
-  border: 1px solid #CCC;
-  background-color: #E0E0E0;
-  padding: .5em;
-  overflow: hidden;
-} */
+
 
 .derecha   { float: right; }
 .izquierda { float: left;  }
