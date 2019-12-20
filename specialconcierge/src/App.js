@@ -1,8 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
+//Ivan
 import BarraLateral from './components/BarraLateral'
 import Comentario from './components/Comentarios'
 import Informacion from './components/Informacion'
+//GER
+import Singin from './components/Singin'
+import Singup from './components/Singup'
+import Menu from './components/Menu'
+
 import './App.css';
 import ReactFontFace from 'react-font-face'
 import Font from './components/fonts/Gibson-SemiBold.otf'
@@ -24,8 +30,11 @@ export default class App extends React.Component {
   return (
     <div tyle={ styles.google1 } >
          {/* <Comentario/> */}
-         <BarraLateral/>
+         {/* <BarraLateral/> */}
          {/* <Informacion/> */}
+         {/* <Singin/> */}
+         {/* <Singup/> */}
+         <Menu/>
        
     </div>
   );

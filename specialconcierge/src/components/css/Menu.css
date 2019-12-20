@@ -1,0 +1,989 @@
+.mediaViewInfo {
+    --web-view-name: Menu - 3;
+    --web-view-id: Menu___3;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+:root {
+    --web-view-ids: Menu___3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#Menu___3 {
+    position: absolute;
+    background: #E5E5E5;
+    width: 375px;
+    height: 812px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    --web-view-name: Menu - 3;
+    --web-view-id: Menu___3;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+#content {
+    position: absolute;
+    width: 375px;
+    height: 1019px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#bg {
+    position: absolute;
+    width: 375px;
+    height: 818px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#previous_screen {
+    position: absolute;
+    width: 375px;
+    height: 818px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#content_A15_Group_4 {
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    left: 0px;
+    top: 6px;
+    overflow: visible;
+}
+
+#elements_map {
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#bg_map {
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#map_content {
+    position: absolute;
+    width: 266px;
+    height: 354px;
+    left: 49px;
+    top: 183px;
+    overflow: visible;
+}
+
+#pins {
+    position: absolute;
+    width: 266px;
+    height: 354px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#map_avatar {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 118px;
+    top: 167px;
+    overflow: visible;
+}
+
+#radar {
+    opacity: 0.401;
+}
+
+.radar {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    width: 72px;
+    height: 72.371px;
+    transform: translate(0px, 0px) matrix(1, 0, 0, 1, 0, -44) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+
+.avatar {
+    filter: drop-shadow(0px 2px 12px rgba(42, 46, 67, 0.071));
+    position: absolute;
+    overflow: visible;
+    width: 68px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+}
+
+#pin {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 45px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_4 {
+    filter: drop-shadow(0px 2px 12px rgba(207, 204, 214, 0.6));
+    position: absolute;
+    overflow: visible;
+    width: 68px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+}
+
+#icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: 4px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_5 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+#ico {
+    opacity: 0.8;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 5px;
+    top: 5px;
+    overflow: visible;
+}
+
+#pin_A15_Group_10 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 234px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bg_A15_Path_5 {
+    filter: drop-shadow(0px 2px 12px rgba(207, 204, 214, 0.6));
+    overflow: visible;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#icon_A15_Component_4 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: 4px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_7 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+#ico_A15_Group_11 {
+    opacity: 0.8;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 5px;
+    top: 5px;
+    overflow: visible;
+}
+
+#pin_A15_Group_12 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 234px;
+    top: 222px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_9 {
+    filter: drop-shadow(0px 2px 12px rgba(207, 204, 214, 0.6));
+    position: absolute;
+    overflow: visible;
+    width: 68px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+}
+
+#icon_A15_Component_5 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: 4px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_10 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+#food {
+    opacity: 0.798;
+}
+
+.food {
+    position: absolute;
+    overflow: visible;
+    width: 16px;
+    height: 16px;
+    left: 4px;
+    top: 4px;
+}
+
+#pin_A15_Group_13 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 154px;
+    top: 322px;
+    overflow: visible;
+}
+
+.bg_A15_Path_7 {
+    filter: drop-shadow(0px 2px 12px rgba(207, 204, 214, 0.6));
+    overflow: visible;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#icon_A15_Component_6 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: 4px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_13 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+#ico_A15_Group_14 {
+    opacity: 0.8;
+    position: absolute;
+    width: 14px;
+    height: 12.632px;
+    left: 5px;
+    top: 6px;
+    overflow: visible;
+}
+
+#pin_A15_Group_15 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 22px;
+    top: 247px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_15 {
+    filter: drop-shadow(0px 2px 12px rgba(207, 204, 214, 0.6));
+    position: absolute;
+    overflow: visible;
+    width: 68px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+}
+
+#icon_A15_Component_7 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 4px;
+    top: 4px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_16 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+#food_A15_Rectangle_17 {
+    opacity: 0.798;
+}
+
+.food_A15_Rectangle_17 {
+    position: absolute;
+    overflow: visible;
+    width: 16px;
+    height: 16px;
+    left: 4px;
+    top: 4px;
+}
+
+#top {
+    position: absolute;
+    width: 375px;
+    height: 165px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.back_gradient {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 165px;
+    left: 0px;
+    top: 0px;
+}
+
+#status_bar_light {
+    position: absolute;
+    width: 340.328px;
+    height: 16px;
+    left: 16px;
+    top: 6px;
+    overflow: visible;
+}
+
+#status_bar_light_A15_Group_17 {
+    position: absolute;
+    width: 340.328px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Background {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    width: 375px;
+    height: 44px;
+    left: -20px;
+    top: -15px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#Battery {
+    position: absolute;
+    width: 24.328px;
+    height: 11.333px;
+    left: 316px;
+    top: 2.333px;
+    overflow: visible;
+}
+
+#Border {
+    position: absolute;
+    width: 22px;
+    height: 11.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Cap {
+    position: absolute;
+    width: 1.328px;
+    height: 4px;
+    left: 23px;
+    top: 3.667px;
+    overflow: visible;
+}
+
+#Capacity {
+    position: absolute;
+    width: 18px;
+    height: 7.333px;
+    left: 2px;
+    top: 2px;
+    overflow: visible;
+}
+
+#Wifi {
+    position: absolute;
+    width: 15.272px;
+    height: 10.966px;
+    left: 295.694px;
+    top: 2.331px;
+    overflow: visible;
+}
+
+#Wifi_A15_Group_23 {
+    position: absolute;
+    width: 15.272px;
+    height: 10.966px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Cellular_Connection {
+    position: absolute;
+    width: 17px;
+    height: 10.667px;
+    left: 273.667px;
+    top: 2.667px;
+    overflow: visible;
+}
+
+#Cellular_Connection_A15_Group_25 {
+    position: absolute;
+    width: 17px;
+    height: 10.667px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#Bars___Time_Black {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Background_A15_Path_20 {
+    overflow: visible;
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.__Time {
+    overflow: visible;
+    position: absolute;
+    width: 27.451px;
+    height: 10.35px;
+    left: 12.823px;
+    top: 4.89px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#textfield {
+    position: absolute;
+    width: 343px;
+    height: 52px;
+    left: 16px;
+    top: 36px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_20 {
+    filter: drop-shadow(0px 12px 16px rgba(69, 91, 99, 0.078));
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+.divider {
+    position: absolute;
+    overflow: visible;
+    width: 1px;
+    height: 24px;
+    left: 56px;
+    top: 14px;
+}
+
+#_Qu__lugar_quieres_visitar_ {
+    position: absolute;
+    left: 79px;
+    top: 18px;
+    overflow: visible;
+    width: 197px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(69, 79, 99, 1);
+}
+
+#Ico_menu_light {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 17px;
+    top: 14px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_22 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+.icon_A15_BooleanGroup_1 {
+    overflow: visible;
+    position: absolute;
+    width: 20px;
+    height: 13.5px;
+    left: 2px;
+    top: 5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#bottom {
+    position: absolute;
+    width: 375px;
+    height: 384px;
+    left: 0px;
+    top: 635px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_23 {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 384px;
+    left: 0px;
+    top: 0px;
+}
+
+#mask {
+    position: absolute;
+    width: 375px;
+    height: 384px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#mask_A15_Group_31 {
+    position: absolute;
+    width: 375px;
+    height: 384px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#default {
+    position: absolute;
+    width: 327px;
+    height: 76px;
+    left: 24px;
+    top: 62px;
+    overflow: visible;
+}
+
+#RECOMMENDED {
+    opacity: 0.56;
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: -24px;
+    overflow: visible;
+    width: 92px;
+    white-space: nowrap;
+    line-height: 14px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#card_rideshare {
+    position: absolute;
+    width: 101px;
+    height: 76px;
+    left: 113px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_29 {
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+}
+
+#Plazas {
+    position: absolute;
+    left: 34px;
+    top: 50px;
+    overflow: visible;
+    width: 35px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#card_car {
+    position: absolute;
+    width: 101px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_30 {
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+}
+
+#Restaurantes {
+    position: absolute;
+    left: 16px;
+    top: 50px;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#card_bus {
+    position: absolute;
+    width: 101px;
+    height: 76px;
+    left: 226px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_31 {
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+}
+
+#Hoteles {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    overflow: visible;
+    width: 43px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#Desliza_hacia_arriba_para_mas_ {
+    position: absolute;
+    left: 37px;
+    top: 25px;
+    overflow: visible;
+    width: 282px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Gibson;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#home_indicator_dark_A15_Group_40 {
+    position: absolute;
+    width: 375px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#bg_A15_Rectangle_43 {
+    opacity: 0;
+}
+
+.bg_A15_Rectangle_43 {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+#indicator_A15_Rectangle_44 {
+    opacity: 0.2;
+}
+
+.indicator_A15_Rectangle_44 {
+    position: absolute;
+    overflow: visible;
+    width: 134px;
+    height: 3px;
+    left: 121px;
+    top: 12px;
+}
+
+.cena {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 61px;
+    top: 714px;
+}
+
+.bolsa_de_la_compra {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 176px;
+    top: 714px;
+}
+
+#icons_chevron {
+    transform: translate(0px, 0px) matrix(1, 0, 0, 1, 314, 657) rotate(180deg);
+    transform-origin: center;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.back_A15_Rectangle_38 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+.ico_A15_BooleanGroup_2 {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    left: -2px;
+    top: 9px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.line {
+    width: 8px;
+    height: 2px;
+    position: absolute;
+    overflow: visible;
+    transform: translate(24px, 24px) matrix(1, 0, 0, 1, 7.3619, 11) rotate(45deg);
+    transform-origin: center;
+}
+
+.line_A15_Rectangle_40 {
+    width: 8px;
+    height: 2px;
+    position: absolute;
+    overflow: visible;
+    transform: translate(24px, 24px) matrix(1, 0, 0, 1, 12.1705, 11) rotate(-45deg);
+    transform-origin: center;
+}
+
+.recurso {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 291px;
+    top: 714px;
+}
+
+#bottom_A15_Group_39 {
+    position: absolute;
+    width: 375px;
+    height: 24px;
+    left: 0px;
+    top: 788px;
+    overflow: visible;
+}
+
+#home_indicator_dark_A15_Group_40 {
+    position: absolute;
+    width: 375px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#bg_A15_Rectangle_43 {
+    opacity: 0;
+}
+
+.bg_A15_Rectangle_43 {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+#indicator_A15_Rectangle_44 {
+    opacity: 0.2;
+}
+
+.indicator_A15_Rectangle_44 {
+    position: absolute;
+    overflow: visible;
+    width: 134px;
+    height: 3px;
+    left: 121px;
+    top: 12px;
+}
+
+#button_fab_gps {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 307px;
+    top: 567px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_45 {
+    filter: drop-shadow(0px 12px 16px rgba(69, 91, 99, 0.102));
+    position: absolute;
+    overflow: visible;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+#icons_gps {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 14px;
+    top: 14px;
+    overflow: visible;
+}
+
+.bg_A15_Rectangle_46 {
+    position: absolute;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+.path {
+    overflow: visible;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.ic_mic_24px {
+    overflow: visible;
+    position: absolute;
+    width: 14px;
+    height: 19px;
+    left: 330px;
+    top: 53px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
