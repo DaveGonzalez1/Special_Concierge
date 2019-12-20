@@ -10,7 +10,7 @@ function App() {
   return (
  
     <div class="page-wrapper chiller-theme toggled ">
-           <head>
+          
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
@@ -20,7 +20,7 @@ function App() {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <title>Special Concierge</title>
-</head>
+
     <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
       <i class="fa fa-bars">  </i>
     </a>
@@ -28,8 +28,7 @@ function App() {
       <div class="sidebar-content">
        
         <div class="sidebar-header" >
-            <div class="sidebar-brand">
-                <a href="#"></a>
+            <div class="sidebar-brand derecha">
                 <div id="close-sidebar">
                   <i class="fa fa-bars"></i>
                 </div>
