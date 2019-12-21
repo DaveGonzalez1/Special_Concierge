@@ -1,0 +1,108 @@
+
+main{
+    width: 100%;
+    max-width: 1300px;
+    margin-top: 30px;
+    position: relative;
+    margin: auto;
+    
+  
+}
+
+.content-logo-flecha{
+    width: 30px;
+    height: 30px;
+    margin-top: -250px ;
+}
+
+.content-cabecera{
+    width: 100%;
+    
+    
+}
+
+.content-logo{    /*el tamaño del contenedor donde va una imagen*/
+    width: 375px; /*ancho*/
+    height: 300px; /*alto*/
+    margin: auto;  /*se posiciona en el centro*/
+    
+}
+
+.content-logo img{    /*se ajusta al 100% de los 375px x 300 px que pusimos de tamaño*/
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.content-cabecera h1{
+    font-weight: 10;
+    color: white;
+    margin-top: -250px;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    font-size: 32px;
+    font-family: "gibson-bold";
+    text-align: center;
+    
+}
+
+.content-cabecera p{
+    margin-top: 15px;
+    color:white;
+    font-size: 32px;
+    -webkit-text-stroke: 0.3px rgb(0, 0, 0);
+    font-family: "Gibson-Regular";
+    text-align: center;
+
+}
+
+.content-cabecera h2{
+    margin-top: 65px;
+    color:white;
+    text-align: center;
+    font-weight: 50;
+    font-size: 32px;
+    -webkit-text-stroke: 0.25px rgb(0, 0, 0);
+    font-family: "Gibson-Regular";
+}
+
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+    margin-top: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+
+input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: #FFB900;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: #FFB900;
+  }
+  
+
+  
